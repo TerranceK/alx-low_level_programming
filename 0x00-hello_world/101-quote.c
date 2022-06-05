@@ -16,7 +16,7 @@
 int main(void)
 {
 	char myString[] = "and that piece of art is useful\" "
-		"- Dora Korpar, 2015-10-19";
+		"- Dora Korpar, 2015-10-19\n";
 
 	fwrite(myString, sizeof(char), strlen(myString), stderr);
 	return (1);
