@@ -10,9 +10,7 @@
  */
 int main(void)
 {
-	int i = 0;
-	int j = 0;
-	int k = 0;
+	int i = 0, j = 0, k = 0;
 	int first, second, third, fourth, fifth, sixth;
 
 	for (i = 0; i < 10; i++)
@@ -35,14 +33,14 @@ int main(void)
 						first < fifth &&
 						first < sixth)
 					{
-						putchar(i + '0');
-						putchar(j + '0');
-						putchar(k + '0');
-						if (first < 789)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (first < 789)
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
