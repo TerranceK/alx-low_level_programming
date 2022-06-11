@@ -17,7 +17,7 @@ void jack_bauer(void)
 				{
 					if ((i == 2) && (j == 4) && (k == 0) && (l == 0))
 					{
-						break;
+						goto out_of_loops;
 					}
 					else
 					{
@@ -32,4 +32,5 @@ void jack_bauer(void)
 			}
 		}
 	}
+out_of_loops:
 }
