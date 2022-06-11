@@ -1,9 +1,9 @@
-/*
- * add - add 2 numbers and return the result.
+/**
+ * add - funtion to add 2 numbers.
  *
- * @a: first number.
- * @b: second number
- * Return: a + b.
+ * @a: first value for addition.
+ * @b: second value for addition.
+ * Return: a+b.
  */
 int add(int a, int b)
 {

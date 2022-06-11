@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * 9-times_table.c - prints the 9 times table, starting with 0
- * @c: The character to be checked.
+ * times_table - prints the 9 times table, starting with 0.
  */
-
 void times_table(void)
 {
 	int num, mult, prod;
