@@ -5,8 +5,7 @@
  * by a newline.
  *
  * @i: Counter from 97 to 122
- * Return: 0 on successful execution
- */
+  */
 void print_alphabet(void)
 {
 	int i = 97;
@@ -15,6 +14,4 @@ void print_alphabet(void)
 		_putchar(i);
 	}
 	_putchar('\n');
-
-	return (0);
 }
