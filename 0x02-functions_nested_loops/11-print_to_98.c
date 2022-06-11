@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * print_to_98.c - prints all natural numbers from n to 98 followed by a line
- * 
+ * print_to_98 - prints all natural numbers from n to 98 followed by a line
+ *
  * @n: the first number to be printed
  */
+void print_to_98(int n)
+{
+	int i;
 
-void print_to_98(int n){
-	int count;
-	int number = n;
-
-	for(count = n; count <99; count++)
+	for (i = n; i <= 98 ; i++)
 	{
-		_putchar(number);
-		number++;
-		_putchar(',');
-
+		printf("%d", i);
+		if (i < 98)
+		{
+			printf(",");
+			printf(" ");
+		}
 	}
-	_putchar('\n');
-
+	printf("\n");
 }
