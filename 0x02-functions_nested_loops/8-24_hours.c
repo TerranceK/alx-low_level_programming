@@ -17,9 +17,7 @@ void jack_bauer(void)
 				{
 					if ((i == 2) && (j == 4) && (k == 0)
 							&& (l == 0))
-					{
 						break;
-					}
 					else
 					{
 						_putchar(i + '0');
@@ -31,24 +29,16 @@ void jack_bauer(void)
 					}
 					if ((i == 2) && (j == 4) && (k == 0)
 							&& (l == 0))
-                                        {
 						break;
-					}
 				}
 				if ((i == 2) && (j == 4) && (k == 0)
 						&& (l == 0))
-				{
 					break;
-				}
 			}
 			if ((i == 2) && (j == 4) && (k == 0) && (l == 0))
-			{
 				break;
-			}
 		}
 		if ((i == 2) && (j == 4) && (k == 0) && (l == 0))
-		{
 			break;
-		}
 	}
 }
