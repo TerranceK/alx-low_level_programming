@@ -8,7 +8,7 @@
  */
 
 int print_last_digit(long int n)
-{	
+{
 	if (n < 0)
 	{
 		n *= -1;
