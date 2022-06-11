@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h
+void print_alphabet(void);
+void _putchar(char);
+
 #endif /* MAIN_H */
