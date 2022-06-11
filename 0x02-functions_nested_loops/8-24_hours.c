@@ -18,14 +18,12 @@ void jack_bauer(void)
 					if ((i == 2) && (j == 4) && (k == 0)
 							&& (l == 0))
 						break;
-					else
-					{
-						_putchar(i + '0');
-						_putchar(j + '0');
-						_putchar(':');
-						_putchar(k + '0');
-						_putchar(l + '0');
-						_putchar('\n');
+					_putchar(i + '0');
+					_putchar(j + '0');
+					_putchar(':');
+					_putchar(k + '0');
+					_putchar(l + '0');
+					_putchar('\n');
 					}
 					if ((i == 2) && (j == 4) && (k == 0)
 							&& (l == 0))
