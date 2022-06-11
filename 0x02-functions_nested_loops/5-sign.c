@@ -21,10 +21,10 @@ int print_sign(int n)
 	}
 	else
 	{
-		lcase = 0;
+		nsign = 0;
 		_putchar('0');
 	}
 
-	return (lcase);
+	return (nsign);
 }
 
