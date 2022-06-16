@@ -11,7 +11,7 @@ void _puts(char *str)
 {
 	int i, max;
 
-	max = sizeof(str) / sizeof(char);
+	max = sizeof(*str) / sizeof(char);
 	for (i = 0; i < max; i++)
 	{
 		_putchar(str[i] + '0');
